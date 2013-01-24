@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'com.cloudcredo.cloudfoundry'
+version = '0.0.1'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    compile 'org.cloudfoundry:cloudfoundry-runtime:0.8.4.BUILD-SNAPSHOT'
+}
+
+
