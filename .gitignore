@@ -15,3 +15,6 @@ com.vmware.sts.server.appcloud.releng/springsource/
 .project
 .settings
 out
+.gradle
+.idea
+build
